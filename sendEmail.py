@@ -20,7 +20,6 @@ receivers = ['12345@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者�
  
 #创建一个带附件的实例
 message = MIMEMultipart()
-#message['From'] = Header("StarTimes", 'utf-8')
 message['To'] =  Header("12345@qq.com")
 subject = 'test'
 message['Subject'] = Header(subject, 'utf-8')
